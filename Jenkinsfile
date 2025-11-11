@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Checkout Code'
                 //git branch: 'main', url: 'https://github.com/staticwebdev/react-basic.git'
-                git branch: 'main', changelog: false, credentialsId: 'reactgitrepocred', poll: false, url: 'https://github.com/sonusharma85indore/react-website.git'
+                git branch: 'main', changelog: false, credentialsId: 'reactgitrepocred', poll: false, url: 'https://github.com/ArunPatidar1267/sonarqube-react-web.git'
             }
         }
         stage('Install Dependency') {
